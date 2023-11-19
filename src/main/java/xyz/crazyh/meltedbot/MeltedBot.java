@@ -33,7 +33,7 @@ public class MeltedBot {
         // Some preinit code
         LOGGER.info("HELLO FROM PREINIT");
         // debug
-        SharedConstants.IS_RUNNING_IN_IDE = true;
+        //SharedConstants.IS_RUNNING_IN_IDE = true;
     }
 
 
