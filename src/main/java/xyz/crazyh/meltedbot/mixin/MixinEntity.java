@@ -20,7 +20,10 @@ public abstract class MixinEntity {
     @Nullable
     public abstract Entity getControllingPassenger();
 
-    @Inject(method = "isControlledByLocalInstance", at = @At("HEAD"), cancellable = true)
+    @Inject(method = "isControlledByLocalInstance",
+            at = @At("HEAD"),
+            cancellable = true
+    )
     private void isFakePlayer(CallbackInfoReturnable<Boolean> cir) {
         if (getControllingPassenger() instanceof ServerPlayerFake) cir.setReturnValue(!level.isClientSide);
     }

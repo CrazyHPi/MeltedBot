@@ -3,7 +3,7 @@
   "minVersion": "0.8",
   "package": "xyz.crazyh.meltedbot.mixin",
   "compatibilityLevel": "JAVA_8",
-  "refmap": "MeltedBot.refmap.json",
+  "refmap": "meltedbot.refmap.json",
   "mixins": [
     "MixinConnection",
     "MixinEntity",
