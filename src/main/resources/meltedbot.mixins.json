@@ -5,6 +5,11 @@
   "compatibilityLevel": "JAVA_8",
   "refmap": "MeltedBot.refmap.json",
   "mixins": [
+    "MixinConnection",
+    "MixinEntity",
+    "MixinPlayer",
+    "MixinPlayerList",
+    "MixinServerPlayer"
   ],
   "client": [
   ],
